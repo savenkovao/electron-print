@@ -1,0 +1,15 @@
+appId: org.kopeyka.prod
+productName: Kopeyka-App-Prod
+directories:
+  output: app-builds
+  buildResources: build
+  app: dist
+linux:
+  category : "Utility"
+  target:
+#    - deb
+    - rpm
+mac:
+  target:
+    - dmg
+electronVersion: 1.8.7
